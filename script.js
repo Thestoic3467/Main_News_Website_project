@@ -22,6 +22,7 @@ function onNavItemClick(id) {
     navItem.classList.add('active');
 }
 
+
 async function fetchNews(query) {
     let subjectQuery = "";
     switch (query) {
