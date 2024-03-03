@@ -1,4 +1,4 @@
-const API_KEY = "642a580404924fc5bdc2de56b13df623";
+const API_KEY = "8d2471a6b84c45f492b8f126a9844ef4";
 const url = "https://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("India"));
@@ -25,8 +25,7 @@ function onNavItemClick(id) {
 
 async function fetchNews(query) {
     let subjectQuery = "";
-    switch (query) {
-
+     switch (query) {
         case "nutrition":
             subjectQuery = "nutrition india OR breastfeeding practices india OR child health india";
             break;
