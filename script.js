@@ -27,19 +27,19 @@ async function fetchNews(query) {
     let subjectQuery = "";
      switch (query) {
         case "nutrition":
-            subjectQuery = "nutrition india OR breastfeeding practices india OR child health india";
+            subjectQuery = "nutrition India  OR child nutrition India  OR food security India  OR dietary habits India  OR malnutrition India ";
             break;
         case "health":
-            subjectQuery = "maternal health india OR child healthcare india OR immunization india";
+            subjectQuery = "public health India OR healthcare system India OR disease preventionIndia  OR health policies India OR medical research India ";
             break;
         case "education":
-            subjectQuery = "early childhood education india OR literacy initiatives india";
+            subjectQuery = "education system OR educational reforms OR digital literacy OR school infrastructure OR teacher training ";
             break;
         case "community":
-            subjectQuery = "community development india OR women empowerment india";
+            subjectQuery = "community development OR social welfare programs OR rural empowerment India OR youth engagement OR volunteer initiative ";
             break;
         case "policies":
-            subjectQuery = "Anganwadi Sevikas OR government policies OR welfare programs OR ICDS";
+            subjectQuery = "Anganwadi Sevikas OR government policies OR welfare programs OR ICDS OR government policies OR social justice policies OR child welfare programs OR women's rights policies OR employment policies";
             break;
         default:
             subjectQuery = query; // If query doesn't match any specific subject, use it as is
