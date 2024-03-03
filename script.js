@@ -39,7 +39,7 @@ async function fetchNews(query) {
             subjectQuery = "community development OR social welfare programs OR rural empowerment India OR youth engagement OR volunteer initiative ";
             break;
         case "policies":
-            subjectQuery = "Anganwadi Sevikas OR government policies OR welfare programs OR ICDS OR government policies OR social justice policies OR child welfare programs OR women's rights policies OR employment policies";
+            subjectQuery = "Anganwadi Sevikas OR government policies OR welfare programs OR ICDS";
             break;
         default:
             subjectQuery = query; // If query doesn't match any specific subject, use it as is
@@ -52,6 +52,8 @@ async function fetchNews(query) {
     const data = await res.json();
     bindData(data.articles);
 }
+
+
 
 // Define a function to fetch news articles at regular intervals
 function fetchNewsPeriodically(query) {
