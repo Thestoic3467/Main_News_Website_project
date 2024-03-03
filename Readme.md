@@ -1,1 +1,1 @@
-A News Website integrated with a News API and a simple frontend to display news articles based on certain specific tags.
+Welcome to our News App, dedicated to providing timely updates and insightful articles tailored for Anganwadi Sevikas across India. Stay informed about the latest developments in nutrition, health, education, community initiatives, and government policies, all curated to support your vital role in child and community welfare. Explore a wide range of news articles sourced from diverse sources, ensuring comprehensive coverage and informed decision-making.
